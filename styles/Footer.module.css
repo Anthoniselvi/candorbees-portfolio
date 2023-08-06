@@ -1,0 +1,176 @@
+.container{
+  padding-left: 6rem;
+  padding-right: 6rem;
+  padding-bottom: 6rem;
+  padding-top: 6rem;
+  width: 100%;
+  height: 100%;
+  color: white;
+  background-color: #3d2a52;
+}
+
+.content{
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  width: 100%;
+  gap: 100px;
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  gap: 30px;
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
+  width: 100%;
+}
+
+.input 
+{
+  padding: 0.5rem;
+  width: 660px;
+  border: none;
+  border-bottom: 4px solid white;
+  background-color: transparent;
+  outline: none;
+  color: white;
+  margin-top: 10px;
+  font-size: 22px;
+  font-family: 'Poppins-Bold', sans-serif;
+}
+
+
+.textarea {
+  padding: 1rem;
+  font-size: 22px;
+  margin-top: 10px;
+  width: 650px;
+  height: 200px;
+  border: solid 4px white;
+  background-color: transparent;
+  outline: none;
+  border-radius: 10px; 
+  margin-bottom: 10px;
+  color: #fff;
+  font-family: 'Poppins-Bold', sans-serif;
+  resize: none;
+  font-size: 20px;
+}
+.myform{
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.myforminput{
+  display: flex;
+  flex-direction: column;
+}
+
+.label {
+  font-size: 22px;
+  margin-top: 25px;
+}
+.successcontainer{
+padding-top: 20px;
+display: flex;
+flex-direction: column;
+gap:30px;
+}
+
+.button{
+  border: solid 2px white;
+  background-color: white;
+  text-align: center;
+  font-size: 22px;
+  font-weight: 600;
+  padding: 20px;
+  color: black;
+  border-radius: 12px;
+  width: 650px;
+}
+.submitbtn {
+/* width: 650px; */
+/* padding: 20px; */
+display: flex;
+align-items: center;
+justify-content: center;
+gap: 10px;
+}
+.rightarrow{
+font-size: 35px;
+font-weight: 600;
+}
+
+
+.content p a {
+color: white;
+}
+
+.content p a:hover {
+text-decoration: underline;
+}
+
+@media (max-width: 1200px) {
+ 
+
+.content {
+gap: 15px;
+}
+
+.content {
+  gap: 40px;
+
+ 
+}
+
+.container{
+  padding: 1rem;
+max-width: 100%;
+width: 100%;
+
+}
+
+.content{
+  display: flex;
+  flex-direction: column;
+  gap: 20px;   
+}
+
+.input
+{
+  width: 90%;
+  font-size: 16px;
+
+  }
+
+.textarea {
+ width: 90%;
+ font-size: 16px;
+}
+
+.button{
+  width: 90%;
+  padding: 10px;
+  font-size: 16px;
+}
+ 
+.label {
+  font-size: 15px;
+  margin-top: 10px;
+}
+}
+
+
+/* @media (max-width: 678px) {
+.HomePage3-Container{
+  padding: 1rem;
+  max-height: 100%;
+}
+} */
+
+

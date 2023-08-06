@@ -1,0 +1,100 @@
+.container{
+    padding: 6rem;
+     align-items: center;
+     justify-content: center;
+     color: black;
+     width: 100%;
+     background-color: #b370b0;
+     display: flex;
+     flex-direction: column;
+     gap:80px;
+ }
+ 
+ .containercontent{
+     display: grid;
+     grid-template-columns: 1.5fr 1fr;
+     gap: 30px;
+ }
+ 
+ 
+ .containercontent1 {
+     display: grid;
+     grid-template-columns: 1fr 1fr 1fr;
+     gap: 80px;
+     /* margin-top: 4rem; */
+     width: 100%;
+ }
+ 
+ .containercontent1a {
+     display: flex;
+     flex-direction: column;
+     gap: 30px;
+     width: 100%;
+ }
+ 
+ .button{
+     padding: 26px;
+     text-align: center;
+     background: transparent;
+     border: 2px solid rgb(0, 0, 0);
+     border-radius: 12px;
+     color: rgb(0, 0, 0);
+     font-size: 22px;
+     margin-top: 70px;
+     width: 100%;
+     opacity: 1;
+     cursor: pointer;
+     pointer-events: initial;
+ }
+ 
+ 
+ .container1 {
+     padding: 6rem;
+     /* margin-top: 60px; */
+     color: white;
+     width: 100%;
+     border-radius: 20px;
+     background-color: #3d2a52;
+ }
+ 
+ .container1content{
+    display: grid;
+    width: 100%;
+      grid-row-gap: 35px;
+ }
+ 
+ 
+ 
+ @media (max-width: 1200px) {
+ 
+     /* .-Container{
+        padding: 2rem;
+     } */
+    
+     .containercontent {
+        display: flex;
+        flex-direction: column;
+        /* margin-top: -3rem; */
+     }
+ 
+     .container {
+         padding: 2rem 1rem;
+         gap:50px;
+     }
+ 
+     .containercontent1 {
+         display: flex;
+         flex-direction: column;
+         gap: 30px;
+     }    
+ 
+     .button{
+         margin-top: 30px;
+         font-size: 18px;
+     }
+ 
+     .container1 {
+         padding: 2rem;
+     }
+      
+ }

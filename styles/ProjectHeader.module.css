@@ -1,0 +1,141 @@
+.container{
+    padding: 6rem;
+    color: black;
+    width: 100%;
+    margin-top: 100px;
+    /* height: calc(100vh - 100px); */
+    background-color: #fff8f0;
+}
+
+.containercontent{
+    display: grid;
+    grid-template-columns: 1.5fr 1fr;
+    gap: 100px;
+}
+
+.container1 {
+    border-radius: 20px;
+    display: grid;
+    grid-template-columns: 1.5fr 1fr;
+    align-items: center;
+    gap: 100px;
+    /* margin-top: 2rem;
+    padding-left: 6rem;
+    padding-right: 6rem;
+    padding-bottom: 1rem;
+    padding-top: 5rem; */
+    width: 100%;
+}
+
+.container2 {
+
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    gap: 70px;
+    width: 100%;
+}
+
+.container3 {
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+}
+
+.homeimage{
+    width: 100%;
+    height: 100%;
+    /* background-image: url('../../../../public/image/project1.png');
+    align-items: center;
+    background-position: center;
+    background-size: cover; */
+}
+
+.homeimage1 {
+    width: 25%;
+    margin-top: 20px;
+}
+
+.container1a {
+    /* margin-top: -3rem; */
+    display: grid;
+    grid-template-columns: 1.5fr 1fr;
+    align-items: center;
+    gap: 100px;
+    width: 100%;
+    
+}
+
+
+
+
+@media (max-width: 1200px) {
+   
+   .containercontent {
+        display: flex;
+       /* margin-top: 9rem; */
+        flex-direction: column;
+        gap: 30px;
+    }
+     
+    .container2 {
+        display: flex;
+        gap: 30px;
+        width: 100%;
+        height: 100%;
+        flex-direction: column;
+    }
+
+    .homeimage {
+        width: 100%;
+        /* height: 500px; */
+    }
+
+    .container{
+      padding: 1rem;
+      padding-top: 8rem;
+      margin-top: -10px;
+    }
+    
+    .container3 {
+    align-items: left;
+    }
+
+    .container1a {
+        padding: 2rem;
+    }
+    .container1, .container1a {
+        width: 100%;
+       padding: 1%;
+       display: flex;
+       flex-direction: column;
+       gap: 30px;
+    }
+
+  }
+
+  @media (max-width: 678px) {
+   
+    .container1 {
+        width: 100%;
+        /* margin-top: 1rem; */
+        padding: 1rem;
+    }
+
+    .container2 {
+        width: 100%;
+
+    } 
+    
+   }
+
+  
+
+
+ 
+
+
+ 
+
+
+
+

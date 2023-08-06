@@ -1,0 +1,149 @@
+.container{
+    padding:6rem;
+    padding-bottom: 1rem;
+    width: 100%;
+    transition: transform 0.3s ease 0s;
+    background-color: #b370b0;
+}
+
+.content{
+    display: grid;
+    width: 100%;
+    grid-template-columns: 1.5fr 1fr;
+    gap: 30px;
+    
+}
+
+.button{
+    padding: 26px;
+    text-align: center;
+    background: transparent;
+    border: 2px solid rgb(0, 0, 0);
+    border-radius: 12px;
+    color: rgb(0, 0, 0);
+    font-size: 22px;
+    margin-top: 70px;
+    width: 100%;
+    opacity: 1;
+    cursor: pointer;
+    pointer-events: initial;
+}
+
+.container1 {
+    padding: 6rem;
+    margin-top: 60px;
+    margin-bottom: 5rem;
+    color: white;
+    width: 100%;
+    border-radius: 20px;
+    background-color: #3d2a52;
+}
+
+.content{
+   display: grid;
+   width: 100%;
+     grid-row-gap: 35px;
+}
+
+.content1{
+    margin-top: 6rem;
+    display: grid;
+    width: 100%;
+    grid-template-columns: 1.5fr 1fr;
+    gap: 30px;
+}  
+
+.container2{
+    display: grid;
+    grid-template-columns: 1fr 1fr  1fr;
+    width: 100%;
+    gap: 20px;
+   margin-top: 6rem;
+   margin-bottom: 6rem;
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+.home_image2{
+    width: 80%;
+    height: 80%;
+    border-radius: 60%;
+    border: solid 2px black;
+    margin-bottom: 20px;
+}
+  
+  
+@media (max-width: 1200px) {
+
+    .container{
+        display: flex;
+        flex-direction: column;
+        /* gap: 20px; */
+        padding: 1rem;
+        padding-top: 2rem;
+        /* border: 1px solid red; */
+    }
+   
+    .content {
+     display: flex;
+     flex-direction: column;
+     padding: 1rem;
+     }
+      
+     .container2 {
+         /* display: flex;
+         flex-direction: column; */
+     }
+
+     .content1{
+        display: flex;
+    flex-direction: column;
+    margin-top: 2rem;
+    }  
+
+    .container2{
+        display: flex;
+        margin-top: 1rem;
+        gap: 5px;
+        flex-direction: column;
+    }
+
+    .home_image2{
+        width: 30%;
+        margin-top: 1em;
+    } 
+
+    .container1 {
+      padding: 2rem;      
+    }
+    
+    .button {
+        font-size: 16px;
+        padding: 20px;
+        margin-top: 20px;
+    }
+}
+
+
+@media (max-width: 678px) {
+
+.content{
+  display: flex;
+flex-direction: column;
+padding: 0;    
+ }
+
+ .home_image2{
+    /* width: 50%; */
+} 
+
+}
+
+ 
+  
+  
+

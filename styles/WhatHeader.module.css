@@ -1,0 +1,43 @@
+.container{
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100vh;   
+    padding-top: 100px;   
+    padding-left: 6rem;
+    padding-right: 6rem;
+    color: black;
+    transition: transform 0.3s ease 0s;
+    background-color: #b370b0;
+}
+
+.content{
+    display: grid;
+    grid-template-columns: 1.5fr 1fr;
+    gap: 30px;
+}
+
+@media (max-width: 1200px) {
+
+    .container{
+       padding: 1rem;
+       height: 100vh;
+  width: 100%;
+    }
+   
+    .content {
+       display: flex;
+       flex-direction: column;
+       /* margin-top: -2rem; */
+    }
+
+    /* .WhatPage-Container {
+        padding-top: 5rem;
+        height: 100%;
+        padding-bottom: 6rem;
+    } */
+
+     
+}

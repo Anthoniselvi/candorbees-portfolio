@@ -1,0 +1,32 @@
+.container {
+    padding-left: 6rem;
+    padding-right: 6rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    width: 100%;
+    height: 100vh;  
+    transition: transform 0.3s ease 0s;
+    background-color: #3d2a52;
+  }
+  
+  .content {
+    display: grid;
+    grid-template-columns: 1.5fr 1fr;
+    gap: 30px;
+  }
+  
+  @media (max-width: 1200px) {
+    .container {
+     padding: 1rem;
+     width: 100%;
+     height: 100vh;
+    }
+  
+    .content {
+      display: flex;
+      flex-direction: column;
+    }
+  }
+  
