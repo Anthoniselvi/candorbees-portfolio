@@ -428,8 +428,8 @@ const Content = () => {
           >
             <Image
               src="/image/project1.png"
-              width="200"
-              height="200"
+              width="500"
+              height="300"
               alt=""
               className={styles.image}
             />

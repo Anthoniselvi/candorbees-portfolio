@@ -405,8 +405,8 @@ export default function Content() {
           >
             <Image
               src="/image/project1.png"
-              width="800"
-              height="500"
+              width="500"
+              height="300"
               alt=""
               className={styles.image}
             />
