@@ -1,0 +1,298 @@
+.nav{
+    justify-content: center;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    padding: 4rem 6rem;
+    position: fixed;
+    color: black;
+    top: 0;
+    height: 100px;
+    width: 100%;
+}
+  
+
+.navmain{
+    width: 100%;
+}
+
+.navbarleft {
+    font-family: 'BigShouldersText-VariableFont_wght', sans-serif;
+    display: flex;
+    font-size: 40px;
+    align-items: center;
+}
+
+
+.activetextinital1 {
+    color: white;
+}
+
+.activetextinital {
+    color: black;
+}
+
+.activetextinitalhome {
+    color: white;
+}
+
+.navbarleft a{
+    color: black;
+}
+
+  .navinner{
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    border: 1px solid black;
+  } 
+
+.navbarwrapper{
+    border: 1px solid black;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+  
+}
+
+.navlogo{
+    float: left;
+    font-size: 30px;
+    font-weight: 900;
+    margin: -8px 2px 1px 15px;
+    transition: 0.2s ease-in;
+}
+
+.navelements{
+    display: inline;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    font-size: 22px;
+    font-weight: 200;
+    transition: 0.2s ease-in-out;
+    padding: 10px 20px 10px 20px;
+}
+
+
+.navbutton{
+    float: right;
+    background-color: #E93A7D;
+    border-radius: 20px;
+    padding: 10px 20px 10px 20px;
+    margin: -8px 2px 1px 2px;
+
+}
+
+
+.link:hover{
+    cursor: pointer;
+    color: black;
+   text-decoration: underline;
+    border-radius: 20px;
+}
+
+
+.navbarleft.active {
+    font-weight: bold;
+}
+
+.navelements.active {
+    /* background-color: red; */
+    font-weight: bold;
+}
+
+.activetextproject{
+    color: #7a5322;
+    font-size: 22px;
+}
+
+.activetextwhat{
+    color: #7a5322;
+    font-size: 22px;
+}
+
+.activetextget{
+    color: #7a5322;
+    font-size: 22px;
+}
+
+.activetextteam{
+    font-size: 22px;
+    color: #7a5322;
+}
+
+.activetextget{
+    color: #7a5322;
+    font-size: 22px;
+}
+
+.activetexthome {
+    font-size: 22px;
+    color: white;
+}
+
+.menuwhite{
+    color: white;
+}
+
+
+
+.activelink {
+    color: blue; 
+}
+
+.activewhat {
+    justify-content: center;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    padding: 4rem 6rem;
+    position: fixed;
+    top: 0;
+    color: white;
+    height: 100px;
+    width: 100%;
+    background: #b370b0;
+}
+
+.activeproject {
+    background: #fff8f0;
+    justify-content: center;
+    text-align: center;
+    display: flex;
+    color: white;
+    align-items: center;
+    /* background-color: #3d2a52; */
+    padding: 4rem 6rem;
+    position: fixed;
+    top: 0;
+    height: 100px;
+    width: 100%;
+}
+
+.activeteam {
+    background: #3d2a52;
+}
+
+.activeget {
+    background: #3d2a52;
+}
+
+.activehome {
+    background: #3d2a52;
+    justify-content: center;
+    text-align: center;
+    color: white;
+    display: flex;
+    align-items: center;
+    /* padding: 4rem 6rem; */
+    padding-left: 6rem;
+    padding-right: 6rem;
+    padding-top: 4rem;
+    padding-bottom: 4rem;
+    position: fixed;
+    top: 0;
+    height: 100px;
+    width: 100%;
+}
+
+
+.activewhatbg {
+    color: black;
+}
+
+.activeprojectbg {
+    color: black;
+}
+
+.active-get-bg {
+    color: black;
+}
+
+.active-team-bg {
+    color: black;
+}
+
+.icon{
+    display: none;
+    font-size: 25px;
+    cursor: pointer;
+    color: white;
+}
+
+@media screen and (max-width: 1100px){
+ 
+    .nav{
+        padding: 1rem;
+        height: 90px;
+    
+    }
+        .navelements{
+            display: none;
+        }
+        .navbutton{
+            display: none;
+        }
+        .icon{
+            display:block;
+            position: relative;
+            font-size: 50px;
+
+        }
+        .navlogo{
+            margin: 0;
+            font-size: 20px;
+            transition: 0.2s ease-in-out;
+        }
+
+        .navbarwrapper{
+            display: block;
+            margin-bottom: 10px;
+        }
+        
+        .activehome {
+            padding: 1rem;
+        }
+}
+
+@media screen and (max-width: 678px){
+ 
+        .icon{
+            display: inline;
+            position: relative;
+            left: 40%;
+            font-size: 50px;
+        }
+
+        .navbarwrapper{
+            display: block;
+            margin-bottom: 10px;
+        }
+
+  
+}
+
+@media screen and (max-width: 550px){
+ 
+    .icon{
+        display:block;
+        position: relative;
+        font-size: 20px;
+    }
+
+    .navlogo{
+        margin: 0;
+        font-size: 10px;
+        transition: 0.2s ease-in-out;
+    }
+
+    .navbarwrapper{
+        display: block;
+        margin-bottom: 10px;
+    }
+
+
+}

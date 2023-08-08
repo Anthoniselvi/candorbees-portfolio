@@ -14,14 +14,20 @@
     flex: 1;
     display: flex;
     align-items: center;
+    /* justify-content: space-between; */
+    gap: 500px;
   }
   
   .item:nth-child(2) {
-    flex: 3;
+    flex: 2;
+   /* border: 1px solid yellow; */
+   padding: 0;
+   font-size: 22px;
   }
   
   .item:last-child {
     justify-content: flex-end;
+   
   }
   
   .callButton {
@@ -43,14 +49,17 @@
   }
   
   .text:last-child {
-    font-size: 20px;
+    font-size: 22px;
     font-weight: bold;
   }
   
   .list {
     padding: 0;
     display: flex;
+    justify-content: space-between;
     align-items: center;
+    /* gap: 50px; */
+    width: 100%;
     list-style: none;
     color: white;
   }
@@ -89,3 +98,129 @@
       flex: 3;
     }
   }
+
+  .nav{
+    justify-content: space-between;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    padding: 4rem 6rem;
+    position: fixed;
+    color: black;
+    top: 0;
+    height: 100px;
+    width: 100%;
+}
+.activewhat {
+  justify-content: space-between;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  padding: 4rem 6rem;
+  position: fixed;
+  top: 0;
+  color: white;
+  height: 100px;
+  width: 100%;
+  background: #b370b0;
+}
+
+.activeproject {
+  background: #fff8f0;
+  justify-content: center;
+  text-align: center;
+  display: flex;
+  color: white;
+  align-items: center;
+  /* background-color: #3d2a52; */
+  padding: 4rem 6rem;
+  position: fixed;
+  top: 0;
+  height: 100px;
+  width: 100%;
+}
+
+.activeteam {
+  background: #3d2a52;
+}
+
+.activeget {
+  background: #3d2a52;
+}
+
+.activehome {
+  background: #3d2a52;
+  justify-content: center;
+  text-align: center;
+  color: white;
+  display: flex;
+  align-items: center;
+  /* padding: 4rem 6rem; */
+  padding-left: 6rem;
+  padding-right: 6rem;
+  padding-top: 4rem;
+  padding-bottom: 4rem;
+  position: fixed;
+  top: 0;
+  height: 100px;
+  width: 100%;
+}
+.activetextproject{
+  color: #7a5322;
+  font-size: 22px;
+}
+
+.activetextwhat{
+  color: #7a5322;
+  font-size: 22px;
+}
+
+.activetextget{
+  color: #7a5322;
+  font-size: 22px;
+}
+
+.activetextteam{
+  font-size: 22px;
+  color: #7a5322;
+}
+
+.activetextget{
+  color: #7a5322;
+  font-size: 22px;
+}
+
+.activetexthome {
+  font-size: 22px;
+  color: white;
+}
+
+.menuwhite{
+  color: white;
+}
+.activetextinitial {
+  color: black;
+  font-size: 22px;
+}
+.icon{
+    display: none;
+    font-size: 25px;
+    cursor: pointer;
+    color: white;
+
+}
+@media (max-width:1000px) {
+  .nav{
+    .nav{
+      padding: 1rem;
+      height: 90px;
+  
+  }
+  .icon{
+    display:block;
+    position: relative;
+    font-size: 50px;
+
+}
+}
+}
