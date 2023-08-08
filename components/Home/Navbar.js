@@ -12,9 +12,10 @@ const Navbar = () => {
   return (
     <div className={styles.container}>
       <div className={styles.item}>
-        <div className={styles.text} onClick={() => handleNavigation("/")}>
+        <Image src="/image/logo-blue.png" width="200" height="50" />
+        {/* <div className={styles.text} onClick={() => handleNavigation("/")}>
           CANDORBEES
-        </div>
+        </div> */}
       </div>
       <div className={styles.item}>
         <ul className={styles.list}>

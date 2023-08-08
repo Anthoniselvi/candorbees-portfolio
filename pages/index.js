@@ -10,14 +10,8 @@ export default function Home() {
   return (
     <div className={styles.container}>
       <Head>
+        <link rel="shortcut icon" href="/image/logo-big.png" />
         <title>Candorbees</title>
-        <Image
-          src="/image/logo-small.png"
-          width="50"
-          height="50"
-          alt=""
-          className={styles.image}
-        />
       </Head>
       <Header />
       <Projects />
