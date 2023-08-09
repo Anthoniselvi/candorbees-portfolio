@@ -16,7 +16,7 @@ const boxVariant = {
 const WorkingWayAndStock = () => {
   const router = useRouter();
 
-  const navigateToProject2 = () => {
+  const navigateToWhat = () => {
     router.push("/what");
   };
   const control1 = useAnimation();

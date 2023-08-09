@@ -3,6 +3,7 @@ import styles from "@/styles/ProjectHeader.module.css";
 import { motion, useAnimation } from "framer-motion";
 import { useInView } from "react-intersection-observer";
 import { useEffect } from "react";
+import { useRouter } from "next/router";
 
 const boxVariant = {
   visible: {
@@ -14,6 +15,16 @@ const boxVariant = {
 };
 
 const Header = () => {
+  const router = useRouter();
+
+  const navigateToProject2 = () => {
+    router.push("/jobmanagement");
+  };
+
+  const navigateToProject4 = () => {
+    router.push("/giftexchange");
+  };
+
   const control1 = useAnimation();
   const [ref1, inView1] = useInView();
   const control2 = useAnimation();
@@ -123,8 +134,8 @@ const Header = () => {
             variants={boxVariant}
             animate={control4}
           >
-            <h2>Production Scheduler</h2>
-            <h3>JOB MANAGEMENT PLATFORM</h3>
+            <h2 onClick={navigateToProject2}>Production Scheduler</h2>
+            <h3 onClick={navigateToProject2}>JOB MANAGEMENT PLATFORM</h3>
             <p className={styles.parat}>Country: India</p>
             <p className={styles.para}>
               Technologies : React, Node.js, PostgreSQL
@@ -135,6 +146,7 @@ const Header = () => {
             </p>
 
             <Image
+              onClick={navigateToProject2}
               src="/image/arrow.png"
               width="20"
               height="20"
@@ -169,8 +181,8 @@ const Header = () => {
             variants={boxVariant}
             animate={control6}
           >
-            <h2>Gift Junction</h2>
-            <h3>A GIFT MANAGEMENT SOFTWARE</h3>
+            <h2 onClick={navigateToProject4}>Gift Junction</h2>
+            <h3 onClick={navigateToProject4}>A GIFT MANAGEMENT SOFTWARE</h3>
             <p className={styles.parat}>Country: United States</p>
             <p className={styles.para}>
               Technologies : React, Node.js, PostgreSQL
@@ -181,6 +193,7 @@ const Header = () => {
             </p>
 
             <Image
+              onClick={navigateToProject4}
               src="/image/arrow.png"
               width="20"
               height="20"
