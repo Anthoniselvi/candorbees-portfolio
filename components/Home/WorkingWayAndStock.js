@@ -2,6 +2,7 @@ import styles from "@/styles/Working.module.css";
 import { motion, useAnimation } from "framer-motion";
 import { useInView } from "react-intersection-observer";
 import { useEffect } from "react";
+import { useRouter } from "next/router";
 
 const boxVariant = {
   visible: {
@@ -13,6 +14,11 @@ const boxVariant = {
 };
 
 const WorkingWayAndStock = () => {
+  const router = useRouter();
+
+  const navigateToProject2 = () => {
+    router.push("/what");
+  };
   const control1 = useAnimation();
   const [ref1, inView1] = useInView();
   const control2 = useAnimation();
@@ -89,7 +95,9 @@ const WorkingWayAndStock = () => {
         variants={boxVariant}
         animate={control3}
       >
-        <div className={styles.button}>LOOK AT HOW WE WORK</div>
+        <div className={styles.button} onClick={navigateToWhat}>
+          LOOK AT HOW WE WORK
+        </div>
       </motion.div>
       <motion.div
         className="box"

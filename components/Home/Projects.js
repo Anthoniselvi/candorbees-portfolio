@@ -3,7 +3,7 @@ import styles from "@/styles/Projects.module.css";
 import { motion, useAnimation } from "framer-motion";
 import { useInView } from "react-intersection-observer";
 import { useEffect } from "react";
-
+import { useRouter } from "next/router";
 const boxVariant = {
   visible: {
     opacity: 1,
@@ -14,6 +14,20 @@ const boxVariant = {
 };
 
 const Projects = () => {
+  const router = useRouter();
+
+  const navigateToProject2 = () => {
+    router.push("/jobmanagement");
+  };
+
+  const navigateToProject4 = () => {
+    router.push("/giftexchange");
+  };
+
+  const navigateToProject = () => {
+    router.push("/project");
+  };
+
   const control1 = useAnimation();
   const [ref1, inView1] = useInView();
   const control2 = useAnimation();
@@ -138,8 +152,10 @@ const Projects = () => {
               variants={boxVariant}
               animate={control4}
             >
-              <p className={styles.para}>Production Scheduler</p>
-              <h3>JOB MANAGEMENT PLATFORM</h3>
+              <p className={styles.para} onClick={navigateToProject2}>
+                Production Scheduler
+              </p>
+              <h3 onClick={navigateToProject2}>JOB MANAGEMENT PLATFORM</h3>
               <p className={styles.parat}>Country: India</p>
               <p className={styles.para}>
                 Technologies : React, Node.js, PostgreSQL
@@ -147,6 +163,7 @@ const Projects = () => {
               <p className={styles.para}>Time together: 6 months till now</p>
 
               <Image
+                onClick={navigateToProject2}
                 src="/image/arrow.png"
                 alt=""
                 width="20"
@@ -183,8 +200,10 @@ const Projects = () => {
               animate={control6}
               initial="hidden"
             >
-              <p className={styles.para}>Santa Surprise</p>
-              <h3>A GIFT EXCHANGE PROGRAM</h3>
+              <p className={styles.para} onClick={navigateToProject4}>
+                Santa Surprise
+              </p>
+              <h3 onClick={navigateToProject4}>A GIFT EXCHANGE PROGRAM</h3>
               <p className={styles.parat}>Country: India</p>
               <p className={styles.para}>
                 Technologies: React, Node.js, MongoDB
@@ -192,6 +211,7 @@ const Projects = () => {
               <p className={styles.para}>Time together: 3 months till now</p>
               <p className={styles.para}>
                 <Image
+                  onClick={navigateToProject4}
                   src="/image/arrow.png"
                   alt=""
                   width="20"
@@ -210,7 +230,9 @@ const Projects = () => {
         animate={control7}
         initial="hidden"
       >
-        <div className={styles.button}>EXPLORE MORE CASES</div>
+        <div className={styles.button} onClick={navigateToProject}>
+          EXPLORE MORE CASES
+        </div>
       </motion.div>
     </div>
   );
