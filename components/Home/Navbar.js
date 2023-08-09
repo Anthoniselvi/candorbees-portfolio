@@ -1,7 +1,7 @@
 import Image from "next/image";
 import styles from "@/styles/Navbar.module.css";
 import { useRouter } from "next/router";
-import { useState, useEffect } from "react";
+import { useState } from "react";
 import { ImCross } from "react-icons/im";
 import { GiHamburgerMenu } from "react-icons/gi";
 
@@ -10,72 +10,50 @@ const Navbar = ({ opened, setOpened }) => {
   const router = useRouter();
 
   const handleNavigation = (path) => {
+    setActiveLink(path); // Update activeLink when a menu item is clicked
     router.push(path);
   };
 
   const handleMenuClicked = () => {
     setOpened(!opened);
-    console.log("opened");
   };
-  useEffect(() => {
-    const currentPath = window.location.pathname;
-    setActiveLink(currentPath);
-  }, []);
 
   return (
     <div
-      // className={styles.container}
       className={
         activeLink === "/"
           ? styles.activehome
-          : activeLink === "/what"
-          ? styles.activewhat
           : activeLink === "/project"
           ? styles.activeproject
-          : activeLink === "/#team"
-          ? styles.activeteam
           : activeLink === "/#get"
           ? styles.activeget
           : styles.nav
       }
     >
       <div className={styles.item}>
-        {activeLink === "/" ? (
-          <Image
-            src="/image/logo-blue.png"
-            width="200"
-            height="50"
-            onClick={() => handleNavigation("/")}
-          />
-        ) : activeLink === "/what" ? (
-          <Image
-            src="/image/logo-purple.png"
-            width="200"
-            height="50"
-            onClick={() => handleNavigation("/")}
-          />
-        ) : (
-          // activeLink === "/project" ?
-          <Image
-            src="/image/logo-white.png"
-            width="200"
-            height="50"
-            onClick={() => handleNavigation("/")}
-          />
-        )}
-        {/* <div className={styles.text} onClick={() => handleNavigation("/")}>
-          CANDORBEES
-        </div> */}
+        <Image
+          src={
+            activeLink === "/"
+              ? "/image/logo-blue.png"
+              : activeLink === "/what"
+              ? "/image/logo-purple.png"
+              : activeLink === "/project"
+              ? "/image/logo-pink.png"
+              : activeLink === "/#team"
+              ? "/image/logo-purple.png"
+              : "/image/logo-white.png"
+          }
+          width="200"
+          height="50"
+          onClick={() => handleNavigation("/")}
+        />
       </div>
       <div className={styles.item}>
         <ul className={styles.list}>
           <li
-            // className={styles.listItem}
             onClick={() => handleNavigation("/what")}
             className={
-              activeLink === "/"
-                ? styles.menuwhite
-                : activeLink === "/what"
+              activeLink === "/what"
                 ? styles.activetextwhat
                 : styles.activetextinitial
             }
@@ -83,12 +61,9 @@ const Navbar = ({ opened, setOpened }) => {
             WHAT WE DO
           </li>
           <li
-            // className={styles.listItem}
             onClick={() => handleNavigation("/project")}
             className={
-              activeLink === "/"
-                ? styles.menuwhite
-                : activeLink === "/project"
+              activeLink === "/project"
                 ? styles.activetextproject
                 : styles.activetextinitial
             }
@@ -96,12 +71,9 @@ const Navbar = ({ opened, setOpened }) => {
             PROJECTS
           </li>
           <li
-            // className={styles.listItem}
             onClick={() => handleNavigation("/#team")}
             className={
-              activeLink === "/"
-                ? styles.menuwhite
-                : activeLink === "/#team"
+              activeLink === "/#team"
                 ? styles.activetextteam
                 : styles.activetextinitial
             }
@@ -109,12 +81,9 @@ const Navbar = ({ opened, setOpened }) => {
             TEAM
           </li>
           <li
-            // className={styles.listItem}
             onClick={() => handleNavigation("/#get")}
             className={
-              activeLink === "/"
-                ? styles.menuwhite
-                : activeLink === "/#get"
+              activeLink === "/#get"
                 ? styles.activetextget
                 : styles.activetextinitial
             }

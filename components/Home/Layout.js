@@ -10,7 +10,7 @@ const Layout = ({ children }) => {
   return (
     <div>
       <Navbar opened={opened} setOpened={setOpened} />
-      {opened ? <Menu setOpened={setOpened} /> : <div>Menu not opened</div>}
+      {opened ? <Menu setOpened={setOpened} /> : null}
       {children}
       <Footer />
     </div>
