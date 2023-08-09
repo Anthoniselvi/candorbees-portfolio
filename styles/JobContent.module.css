@@ -54,6 +54,16 @@
     color: black;
     text-decoration: underline;
 }
+.para {
+    font-family: 'Poppins-Medium', sans-serif;
+    font-size: 22px;
+  }
+  
+  .parat1{
+    font-family: 'Poppins-Medium', sans-serif;
+    font-size: 22px;
+    margin-top: 40px;
+  }
 
   
 @media (max-width: 1200px) {

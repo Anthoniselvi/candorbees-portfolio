@@ -30,7 +30,12 @@ width: 100%;
     margin-left: 1em;
 }
 
-
+.parat1{
+    font-family: 'Poppins-Medium', sans-serif;
+    font-size: 22px;
+    margin-top: 40px;
+  }
+  
 
 
 @media (max-width: 1200px) {

@@ -18,7 +18,10 @@
     grid-template-columns: 1.5fr 1fr;
     gap: 30px;
 }
-
+.para {
+    font-family: 'Poppins-Medium', sans-serif;
+    font-size: 22px;
+  }
 @media (max-width: 1200px) {
 
     .container{

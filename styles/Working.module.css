@@ -44,7 +44,16 @@
    width: 100%;
      grid-row-gap: 35px;
 }
-
+.para {
+    font-family: 'Poppins-Medium', sans-serif;
+    font-size: 22px;
+  }
+  
+  .para1 {
+    font-family: 'Poppins-Medium', sans-serif;
+    font-size: 22px;
+    width: 55%;
+  }
 /* .content1{
     margin-top: 6rem;
     display: grid;

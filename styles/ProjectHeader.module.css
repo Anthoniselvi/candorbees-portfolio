@@ -65,7 +65,16 @@
     
 }
 
-
+.para {
+    font-family: 'Poppins-Medium', sans-serif;
+    font-size: 22px;
+  }
+  
+  .parat{
+    font-family: 'Poppins-Medium', sans-serif;
+    font-size: 22px;
+    margin-top: 20px;
+  }
 
 
 @media (max-width: 1200px) {

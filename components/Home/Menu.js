@@ -21,12 +21,12 @@ function Menu({ setOpened }) {
           </a>
         </li>
         <li className={styles.navbarelement}>
-          <a href="#team" onClick={hideMenu}>
+          <a href="/#team" onClick={hideMenu}>
             TEAM
           </a>
         </li>
         <li className={styles.navbarelement}>
-          <a href="#get" onClick={hideMenu}>
+          <a href="/#get" onClick={hideMenu}>
             GET IN TOUCH
           </a>
         </li>

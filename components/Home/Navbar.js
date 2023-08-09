@@ -59,6 +59,8 @@ const Navbar = ({ opened, setOpened }) => {
             className={
               activeLink === "/"
                 ? styles.menuwhite
+                : activeLink === "/#get"
+                ? styles.menuwhite
                 : activeLink === "/what"
                 ? styles.activetextwhat
                 : styles.activetextinitial
@@ -71,6 +73,8 @@ const Navbar = ({ opened, setOpened }) => {
             className={
               activeLink === "/"
                 ? styles.menuwhite
+                : activeLink === "/#get"
+                ? styles.menuwhite
                 : activeLink === "/project"
                 ? styles.activetextproject
                 : styles.activetextinitial
@@ -82,6 +86,8 @@ const Navbar = ({ opened, setOpened }) => {
             onClick={() => handleNavigation("/#team")}
             className={
               activeLink === "/"
+                ? styles.menuwhite
+                : activeLink === "/#get"
                 ? styles.menuwhite
                 : activeLink === "/#team"
                 ? styles.activetextteam
@@ -104,6 +110,7 @@ const Navbar = ({ opened, setOpened }) => {
           </li>
         </ul>
       </div>
+
       {!opened ? (
         <GiHamburgerMenu onClick={handleMenuClicked} className={styles.icon} />
       ) : (
