@@ -23,8 +23,12 @@ const Navbar = ({ opened, setOpened }) => {
       className={
         activeLink === "/"
           ? styles.activehome
+          : activeLink === "/what"
+          ? styles.activewhat
           : activeLink === "/project"
           ? styles.activeproject
+          : activeLink === "/#team"
+          ? styles.activeteam
           : activeLink === "/#get"
           ? styles.activeget
           : styles.nav
@@ -41,7 +45,7 @@ const Navbar = ({ opened, setOpened }) => {
               ? "/image/logo-pink.png"
               : activeLink === "/#team"
               ? "/image/logo-purple.png"
-              : "/image/logo-white.png"
+              : "/image/logo-blue.png"
           }
           width="200"
           height="50"
@@ -53,7 +57,9 @@ const Navbar = ({ opened, setOpened }) => {
           <li
             onClick={() => handleNavigation("/what")}
             className={
-              activeLink === "/what"
+              activeLink === "/"
+                ? styles.menuwhite
+                : activeLink === "/what"
                 ? styles.activetextwhat
                 : styles.activetextinitial
             }
@@ -63,7 +69,9 @@ const Navbar = ({ opened, setOpened }) => {
           <li
             onClick={() => handleNavigation("/project")}
             className={
-              activeLink === "/project"
+              activeLink === "/"
+                ? styles.menuwhite
+                : activeLink === "/project"
                 ? styles.activetextproject
                 : styles.activetextinitial
             }
@@ -73,7 +81,9 @@ const Navbar = ({ opened, setOpened }) => {
           <li
             onClick={() => handleNavigation("/#team")}
             className={
-              activeLink === "/#team"
+              activeLink === "/"
+                ? styles.menuwhite
+                : activeLink === "/#team"
                 ? styles.activetextteam
                 : styles.activetextinitial
             }
@@ -83,7 +93,9 @@ const Navbar = ({ opened, setOpened }) => {
           <li
             onClick={() => handleNavigation("/#get")}
             className={
-              activeLink === "/#get"
+              activeLink === "/"
+                ? styles.menuwhite
+                : activeLink === "/#get"
                 ? styles.activetextget
                 : styles.activetextinitial
             }

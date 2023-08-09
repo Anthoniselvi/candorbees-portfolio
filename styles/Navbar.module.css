@@ -106,7 +106,7 @@
     align-items: center;
     padding: 4rem 6rem;
     position: fixed;
-    color: black;
+    color: white;
     top: 0;
     height: 100px;
     width: 100%;
@@ -132,7 +132,6 @@
   display: flex;
   color: white;
   align-items: center;
-  /* background-color: #3d2a52; */
   padding: 4rem 6rem;
   position: fixed;
   top: 0;
@@ -141,11 +140,32 @@
 }
 
 .activeteam {
-  background: #3d2a52;
+  /* background: #3d2a52; */
+  height: 100px;
+  width: 100%;
+  background: #b370b0;
+  justify-content: center;
+  text-align: center;
+  display: flex;
+  color: white;
+  align-items: center;
+  padding: 4rem 6rem;
+  position: fixed;
+  top: 0;
 }
 
 .activeget {
   background: #3d2a52;
+  height: 100px;
+  width: 100%;
+  justify-content: center;
+  text-align: center;
+  display: flex;
+  color: white;
+  align-items: center;
+  padding: 4rem 6rem;
+  position: fixed;
+  top: 0;
 }
 
 .activehome {
@@ -155,11 +175,7 @@
   color: white;
   display: flex;
   align-items: center;
-  /* padding: 4rem 6rem; */
-  padding-left: 6rem;
-  padding-right: 6rem;
-  padding-top: 4rem;
-  padding-bottom: 4rem;
+  padding: 4rem 6rem;
   position: fixed;
   top: 0;
   height: 100px;
@@ -248,3 +264,6 @@
     width: 24px; /* Adjust the width as needed */
     height: 24px; /* Adjust the height as needed */
   }
+  .menuwhite{
+    color: white;
+}
