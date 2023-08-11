@@ -14,6 +14,8 @@
     display: grid;
     grid-template-columns: 1.5fr 1fr;
     gap: 30px;
+    width: 100%;
+    height: 100%;
 
 }
 
@@ -23,6 +25,7 @@
     /* margin-top: 3rem; */
     padding: 6rem;
     width: 100%;
+    height: 100%;
 }
 
 .container2 {
@@ -31,6 +34,7 @@
     grid-template-columns: 1.5fr 1fr;
     gap: 70px;
     width: 100%;
+    height: 100%;
     align-items: center;
     justify-content: center;
 }
@@ -43,7 +47,8 @@
 
 .homeimage{
     width: 100%;
-    height: 100%;
+    height: 60vh;
+    border: 1px solid white;
 }
 
 .homeimage1 {
@@ -113,7 +118,7 @@ cursor: pointer;
 
     .homeimage {
         width: 100%;
-        /* height: 500px; */
+        height: 500px;
     }
 
     .container{
