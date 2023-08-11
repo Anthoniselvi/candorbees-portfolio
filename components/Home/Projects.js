@@ -136,15 +136,16 @@ const Projects = () => {
             variants={boxVariant}
             animate={control3}
           >
-            <div className={styles.homeimage}>
-              <Image
-                src="/image/project5.png"
-                fill
-                // width="200"
-                // height="200"
-                alt=""
-              />
-            </div>
+            {/* <div className={styles.homeimage}> */}
+            <Image
+              src="/image/project5.png"
+              // fill
+              width="400"
+              height="400"
+              alt=""
+              className={styles.homeimage}
+            />
+            {/* </div> */}
           </motion.div>
           <div className={styles.container3}>
             <motion.div
@@ -163,16 +164,17 @@ const Projects = () => {
                 Technologies : React, Node.js, PostgreSQL
               </p>
               <p className={styles.para}>Time together: 6 months till now</p>
-              <div className={styles.homeimage1}>
-                <Image
-                  onClick={navigateToProject2}
-                  src="/image/arrow.png"
-                  alt=""
-                  fill
-                  // width="20"
-                  // height="20"
-                />
-              </div>
+              {/* <div className={styles.homeimage1}> */}
+              <Image
+                onClick={navigateToProject2}
+                src="/image/arrow.png"
+                alt=""
+                // fill
+                width="20"
+                height="20"
+                className={styles.homeimage1}
+              />
+              {/* </div> */}
             </motion.div>
           </div>
         </div>
@@ -187,16 +189,16 @@ const Projects = () => {
             animate={control5}
             initial="hidden"
           >
-            <div className={styles.homeimage}>
-              <Image
-                src="/image/project1.png"
-                fill
-                // width="600"
-                // height="500"
-                alt=""
-                // className={styles.homeimage}
-              />
-            </div>
+            {/* <div className={styles.homeimage}> */}
+            <Image
+              src="/image/project1.png"
+              // fill
+              width="400"
+              height="400"
+              alt=""
+              className={styles.homeimage}
+            />
+            {/* </div> */}
           </motion.div>
           <div className={styles.container3}>
             <motion.div
@@ -216,17 +218,17 @@ const Projects = () => {
               </p>
               <p className={styles.para}>Time together: 3 months till now</p>
               {/* <p className={styles.para}> */}
-              <div className={styles.homeimage1}>
-                <Image
-                  onClick={navigateToProject4}
-                  src="/image/arrow.png"
-                  alt=""
-                  fill
-                  // width="20"
-                  // height="20"
-                  className={styles.homeimage1}
-                />
-              </div>
+              {/* <div className={styles.homeimage1}> */}
+              <Image
+                onClick={navigateToProject4}
+                src="/image/arrow.png"
+                alt=""
+                // fill
+                width="20"
+                height="20"
+                className={styles.homeimage1}
+              />
+              {/* </div> */}
               {/* </p> */}
             </motion.div>
           </div>
