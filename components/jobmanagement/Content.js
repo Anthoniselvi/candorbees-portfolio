@@ -405,8 +405,12 @@ export default function Content() {
           >
             <Image
               src="/image/project1.png"
-              width="500"
-              height="300"
+              style={{
+                width: "100%",
+                height: "auto",
+              }}
+              width={400}
+              height={400}
               alt=""
               className={styles.image}
             />

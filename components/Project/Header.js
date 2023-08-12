@@ -120,8 +120,12 @@ const Header = () => {
         >
           <Image
             src="/image/project5.png"
-            width="50"
-            height="50"
+            style={{
+              width: "100%",
+              height: "auto",
+            }}
+            width={400}
+            height={400}
             alt=""
             className={styles.homeimage}
           />
@@ -148,8 +152,12 @@ const Header = () => {
             <Image
               onClick={navigateToProject2}
               src="/image/arrow.png"
-              width="20"
-              height="20"
+              style={{
+                width: "25%",
+                height: "100%",
+              }}
+              width={100}
+              height={100}
               alt=""
               className={styles.homeimage1}
             />
@@ -167,8 +175,12 @@ const Header = () => {
         >
           <Image
             src="/image/project1.png"
-            width="50"
-            height="50"
+            style={{
+              width: "100%",
+              height: "auto",
+            }}
+            width={400}
+            height={400}
             alt=""
             className={styles.homeimage}
           />
@@ -195,8 +207,12 @@ const Header = () => {
             <Image
               onClick={navigateToProject4}
               src="/image/arrow.png"
-              width="20"
-              height="20"
+              style={{
+                width: "25%",
+                height: "100%",
+              }}
+              width={100}
+              height={100}
               alt=""
               className={styles.homeimage1}
             />

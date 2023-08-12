@@ -7,7 +7,6 @@ import { GiHamburgerMenu } from "react-icons/gi";
 import { useMediaQuery } from "@mui/material";
 
 const Navbar = ({ opened, setOpened }) => {
-  const isNonMobile = useMediaQuery("(min-width:1000px)");
   const [activeLink, setActiveLink] = useState("/");
   const router = useRouter();
 

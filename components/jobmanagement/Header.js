@@ -48,8 +48,12 @@ export default function Header() {
           <div>
             <Image
               src="/image/project5.png"
-              width="200"
-              height="200"
+              style={{
+                width: "100%",
+                height: "auto",
+              }}
+              width={400}
+              height={400}
               alt=""
               className={styles.homeimage}
             />
