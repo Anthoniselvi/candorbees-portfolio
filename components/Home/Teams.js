@@ -70,7 +70,7 @@ const Teams = () => {
   }, []);
 
   return (
-    <div className={styles.container}>
+    <div className={styles.container} id="team">
       <div className={styles.content1}>
         <motion.div
           className="box"
@@ -80,7 +80,7 @@ const Teams = () => {
           animate={control1}
         >
           <h1>
-            <span id="team" className={styles.span}></span>
+            <span className={styles.span}></span>
             OUR CANDORBEES
           </h1>
         </motion.div>

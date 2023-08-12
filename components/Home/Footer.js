@@ -82,7 +82,7 @@ const Footer = () => {
   };
 
   return (
-    <div className={styles.container}>
+    <div className={styles.container} id="get">
       <div className={styles.content}>
         <div className={styles.container1content}>
           <motion.div
@@ -93,7 +93,7 @@ const Footer = () => {
             animate={control1}
           >
             <h1>
-              <span id="get" className={styles.span}></span>
+              <span className={styles.span}></span>
               LET’S MAKE IT TOGETHER
             </h1>
           </motion.div>
