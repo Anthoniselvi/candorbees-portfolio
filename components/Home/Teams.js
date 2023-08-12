@@ -113,8 +113,12 @@ const Teams = () => {
               {/* <img src="./image/profile1.png" alt="" className="homeTeam_image" /> */}
               <Image
                 src="/image/profile1.png"
-                width="200"
-                height="380"
+                style={{
+                  width: "100%",
+                  height: "auto",
+                }}
+                width={100}
+                height={100}
                 alt=""
                 className={styles.teamimage}
               />
@@ -139,8 +143,12 @@ const Teams = () => {
             {/* <img src="./image/profile2.png" alt="" className={styles.teamimage} /> */}
             <Image
               src="/image/profile2.png"
-              width="200"
-              height="380"
+              style={{
+                width: "100%",
+                height: "auto",
+              }}
+              width={100}
+              height={100}
               alt=""
               className={styles.teamimage}
             />
@@ -165,8 +173,12 @@ const Teams = () => {
             {/* <img src="/image/profile3.jpg" alt="" className={styles.teamimage}/> */}
             <Image
               src="/image/profile3.jpg"
-              width="200"
-              height="380"
+              style={{
+                width: "100%",
+                height: "auto",
+              }}
+              width={100}
+              height={100}
               alt=""
               className={styles.teamimage}
             />

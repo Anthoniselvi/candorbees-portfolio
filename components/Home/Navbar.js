@@ -4,8 +4,10 @@ import { useRouter } from "next/router";
 import { useState } from "react";
 import { ImCross } from "react-icons/im";
 import { GiHamburgerMenu } from "react-icons/gi";
+import { useMediaQuery } from "@mui/material";
 
 const Navbar = ({ opened, setOpened }) => {
+  const isNonMobile = useMediaQuery("(min-width:1000px)");
   const [activeLink, setActiveLink] = useState("/");
   const router = useRouter();
 
@@ -47,8 +49,12 @@ const Navbar = ({ opened, setOpened }) => {
               ? "/image/logo-purple.png"
               : "/image/logo-blue.png"
           }
-          width="200"
-          height="50"
+          style={{
+            width: "50%",
+            height: "100%",
+          }}
+          width={400}
+          height={400}
           onClick={() => handleNavigation("/")}
         />
       </div>

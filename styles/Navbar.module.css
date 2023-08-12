@@ -231,10 +231,13 @@
       height: 90px;
   
   }
+  .activeget, .activehome, .activeproject, .activeteam, .activewhat{
+    padding:1rem;
+  }
   .icon{
     display:block;
     position: relative;
-    font-size: 50px;
+    font-size: 25px;
 color: white;
 }
 }

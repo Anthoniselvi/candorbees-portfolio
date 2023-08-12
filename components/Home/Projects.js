@@ -137,13 +137,17 @@ const Projects = () => {
             animate={control3}
           >
             {/* <div className={styles.homeimage}> */}
+
             <Image
               src="/image/project5.png"
-              // fill
-              width="400"
-              height="400"
+              // sizes="100vw"
+              width={400}
+              height={400}
               alt=""
-              className={styles.homeimage}
+              style={{
+                width: "100%",
+                height: "auto",
+              }}
             />
             {/* </div> */}
           </motion.div>
@@ -169,10 +173,13 @@ const Projects = () => {
                 onClick={navigateToProject2}
                 src="/image/arrow.png"
                 alt=""
-                // fill
-                width="20"
-                height="20"
-                className={styles.homeimage1}
+                style={{
+                  width: "25%",
+                  height: "auto",
+                }}
+                width={100}
+                height={100}
+                // className={styles.homeimage1}
               />
               {/* </div> */}
             </motion.div>
@@ -192,9 +199,12 @@ const Projects = () => {
             {/* <div className={styles.homeimage}> */}
             <Image
               src="/image/project1.png"
-              // fill
-              width="400"
-              height="400"
+              style={{
+                width: "100%",
+                height: "auto",
+              }}
+              width={400}
+              height={400}
               alt=""
               className={styles.homeimage}
             />
@@ -223,10 +233,13 @@ const Projects = () => {
                 onClick={navigateToProject4}
                 src="/image/arrow.png"
                 alt=""
-                // fill
-                width="20"
-                height="20"
-                className={styles.homeimage1}
+                style={{
+                  width: "25%",
+                  height: "auto",
+                }}
+                width={100}
+                height={100}
+                // className={styles.homeimage1}
               />
               {/* </div> */}
               {/* </p> */}
