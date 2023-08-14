@@ -412,7 +412,7 @@ export default function Content() {
               }}
               width={400}
               height={400}
-              alt=""
+              alt="job-img"
               className={styles.image}
             />
           </motion.div>

@@ -1,4 +1,3 @@
-import Image from "next/image";
 import { useState, useRef, useEffect } from "react";
 import ArrowRightAltIcon from "@mui/icons-material/ArrowRightAlt";
 import styles from "@/styles/Footer.module.css";

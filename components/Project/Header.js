@@ -126,7 +126,7 @@ const Header = () => {
             }}
             width={400}
             height={400}
-            alt=""
+            alt="production-img"
             className={styles.homeimage}
           />
         </motion.div>
@@ -158,7 +158,7 @@ const Header = () => {
               }}
               width={100}
               height={100}
-              alt=""
+              alt="arrow-img"
               className={styles.homeimage1}
             />
           </motion.div>
@@ -181,7 +181,7 @@ const Header = () => {
             }}
             width={400}
             height={400}
-            alt=""
+            alt="gift-img"
             className={styles.homeimage}
           />
         </motion.div>
@@ -213,7 +213,7 @@ const Header = () => {
               }}
               width={100}
               height={100}
-              alt=""
+              alt="arrow-img"
               className={styles.homeimage1}
             />
           </motion.div>

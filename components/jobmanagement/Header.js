@@ -54,7 +54,7 @@ export default function Header() {
               }}
               width={400}
               height={400}
-              alt=""
+              alt="job-img"
               className={styles.homeimage}
             />
           </div>
