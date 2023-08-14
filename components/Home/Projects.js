@@ -143,7 +143,7 @@ const Projects = () => {
               // sizes="100vw"
               width={400}
               height={400}
-              alt=""
+              alt="production-img"
               style={{
                 width: "100%",
                 height: "auto",
@@ -172,7 +172,7 @@ const Projects = () => {
               <Image
                 onClick={navigateToProject2}
                 src="/image/arrow.png"
-                alt=""
+                alt="arrow-img"
                 style={{
                   width: "25%",
                   height: "auto",
@@ -205,7 +205,7 @@ const Projects = () => {
               }}
               width={400}
               height={400}
-              alt=""
+              alt="santa-img"
               className={styles.homeimage}
             />
             {/* </div> */}
@@ -232,7 +232,7 @@ const Projects = () => {
               <Image
                 onClick={navigateToProject4}
                 src="/image/arrow.png"
-                alt=""
+                alt="arrow-img"
                 style={{
                   width: "25%",
                   height: "auto",

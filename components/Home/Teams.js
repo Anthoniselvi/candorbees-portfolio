@@ -24,6 +24,8 @@ const Teams = () => {
   const [ref4, inView4] = useInView();
   const control5 = useAnimation();
   const [ref5, inView5] = useInView();
+  const control6 = useAnimation();
+  const [ref6, inView6] = useInView();
 
   useEffect(() => {
     if (inView1) {
@@ -64,6 +66,13 @@ const Teams = () => {
       control5.start("hidden");
     }
   }, [control5, inView5]);
+  useEffect(() => {
+    if (inView6) {
+      control6.start("visible");
+    } else {
+      control6.start("hidden");
+    }
+  }, [control6, inView6]);
 
   useEffect(() => {
     window.scrollTo(0, 0);
@@ -109,27 +118,27 @@ const Teams = () => {
           animate={control3}
         >
           <div className={styles.content}>
-            <div className={styles.image}>
-              {/* <img src="./image/profile1.png" alt="" className="homeTeam_image" /> */}
-              <Image
-                src="/image/profile1.png"
-                style={{
-                  width: "100%",
-                  height: "auto",
-                }}
-                width={100}
-                height={100}
-                alt=""
-                className={styles.teamimage}
-              />
+            <Image
+              src="/image/profile.jpg"
+              style={{
+                width: "100%",
+                height: "100%",
+              }}
+              width={400}
+              height={400}
+              alt="lekha-img"
+              className={styles.teamimage}
+            />
+
+            <div className={styles.bottom}>
+              <h3 className={styles.name}>
+                <a href="https://www.linkedin.com/in/anthoni-selvi-813804248/">
+                  SRILEKHA
+                </a>
+              </h3>
+              <p className={styles.parat}>Founder</p>
+              <p className={styles.para}>2 years</p>
             </div>
-            <h3>
-              <a href="https://www.linkedin.com/in/anthoni-selvi-813804248/">
-                ANTHONI SELVI
-              </a>
-            </h3>
-            <p className={styles.parat}>Role: Full Stack Developer</p>
-            <p className={styles.para}>Time together : 2 years</p>
           </div>
         </motion.div>
         <motion.div
@@ -140,26 +149,27 @@ const Teams = () => {
           animate={control4}
         >
           <div className={styles.content}>
-            {/* <img src="./image/profile2.png" alt="" className={styles.teamimage} /> */}
             <Image
-              src="/image/profile2.png"
+              src="/image/profile1.png"
               style={{
                 width: "100%",
-                height: "auto",
+                height: "100%",
               }}
-              width={100}
-              height={100}
-              alt=""
+              width={400}
+              height={400}
+              alt="selvi-img"
               className={styles.teamimage}
             />
-            <h3>
-              <a href="https://www.linkedin.com/in/fatima-mary-572b90252/">
-                FATIMA MARY
-              </a>
-            </h3>
 
-            <p className={styles.parat}>Role: Full Stack Developer</p>
-            <p className={styles.para}>Time together: 2 years</p>
+            <div className={styles.bottom}>
+              <h3 className={styles.name}>
+                <a href="https://www.linkedin.com/in/anthoni-selvi-813804248/">
+                  ANTHONI SELVI
+                </a>
+              </h3>
+              <p className={styles.parat}>Full Stack Developer</p>
+              <p className={styles.para}>2 years</p>
+            </div>
           </div>
         </motion.div>
         <motion.div
@@ -170,25 +180,57 @@ const Teams = () => {
           animate={control5}
         >
           <div className={styles.content}>
-            {/* <img src="/image/profile3.jpg" alt="" className={styles.teamimage}/> */}
+            <Image
+              src="/image/fatima.jpeg"
+              style={{
+                width: "100%",
+                height: "100%",
+              }}
+              width={400}
+              height={400}
+              alt="fatima-img"
+              className={styles.teamimage}
+            />
+            <div className={styles.bottom}>
+              <h3 className={styles.name}>
+                <a href="https://www.linkedin.com/in/fatima-mary-572b90252/">
+                  FATIMA MARY
+                </a>
+              </h3>
+
+              <p className={styles.parat}>Full Stack Developer</p>
+              <p className={styles.para}>2 years</p>
+            </div>
+          </div>
+        </motion.div>
+        <motion.div
+          className="box"
+          ref={ref6}
+          initial="hidden"
+          variants={boxVariant}
+          animate={control6}
+        >
+          <div className={styles.content}>
             <Image
               src="/image/profile3.jpg"
               style={{
                 width: "100%",
-                height: "auto",
+                height: "100%",
               }}
-              width={100}
-              height={100}
-              alt=""
+              width={400}
+              height={400}
+              alt="stella-img"
               className={styles.teamimage}
             />
-            <h3>
-              <a href="https://www.linkedin.com/in/stella-mary-577ab1252">
-                MARIA STELLA MARY
-              </a>
-            </h3>
-            <div className={styles.parat}>Role: UI Developer</div>
-            <div className={styles.para}>Time together: 2 years</div>
+            <div className={styles.bottom}>
+              <h3 className={styles.name}>
+                <a href="https://www.linkedin.com/in/stella-mary-577ab1252">
+                  MARIA STELLA MARY
+                </a>
+              </h3>
+              <div className={styles.parat}>UI Developer</div>
+              <div className={styles.para}>2 years</div>
+            </div>
           </div>
         </motion.div>
       </div>
