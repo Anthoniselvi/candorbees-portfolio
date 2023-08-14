@@ -59,7 +59,16 @@
     text-decoration: underline;
 }
 
+.para {
+    font-family: 'Poppins-Medium', sans-serif;
+    font-size: 22px;
+  }
   
+  .parat1{
+    font-family: 'Poppins-Medium', sans-serif;
+    font-size: 22px;
+    margin-top: 40px;
+  }
 @media (max-width: 1200px) {
 
     .container{
@@ -89,6 +98,8 @@
         margin-top: 2rem;
         margin-bottom: 2rem;
     }
-    
+    .para, .parat1{
+        font-size: 16px;
+     }
      
 }
