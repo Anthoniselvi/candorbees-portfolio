@@ -1,5 +1,6 @@
 import React from "react";
 import styles from "@/styles/Menu.module.css";
+import Link from "next/link";
 
 function Menu({ setOpened }) {
   const hideMenu = () => {
@@ -11,24 +12,36 @@ function Menu({ setOpened }) {
     <div className={styles.navbars}>
       <ul className={styles.navbarwrappers}>
         <li className={styles.navbarelement}>
-          <a href="/what" onClick={hideMenu} className={styles.text}>
+          <Link href="/what" onClick={hideMenu} className={styles.text}>
             WHAT WE DO
-          </a>
+          </Link>
+          {/* <a href="/what" onClick={hideMenu} className={styles.text}>
+            WHAT WE DO
+          </a> */}
         </li>
         <li className={styles.navbarelement}>
-          <a href="/project" onClick={hideMenu} className={styles.text}>
+          <Link href="/project" onClick={hideMenu} className={styles.text}>
             PROJECTS
-          </a>
+          </Link>
+          {/* <a href="/project" onClick={hideMenu} className={styles.text}>
+            PROJECTS
+          </a> */}
         </li>
         <li className={styles.navbarelement}>
-          <a href="/#team" onClick={hideMenu} className={styles.text}>
+          <Link href="/#team" onClick={hideMenu} className={styles.text}>
             TEAM
-          </a>
+          </Link>
+          {/* <a href="/#team" onClick={hideMenu} className={styles.text}>
+            TEAM
+          </a> */}
         </li>
         <li className={styles.navbarelement}>
-          <a href="/#get" onClick={hideMenu} className={styles.text}>
+          <Link href="/#get" onClick={hideMenu} className={styles.text}>
             GET IN TOUCH
-          </a>
+          </Link>
+          {/* <a href="/#get" onClick={hideMenu} className={styles.text}>
+            GET IN TOUCH
+          </a> */}
         </li>
       </ul>
     </div>
