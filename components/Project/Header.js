@@ -105,8 +105,8 @@ const Header = () => {
           bring them to life. Finding the perfect team match is of utmost
           importance to us. Our clients are not just clients; they are our
           partners, collaborators, and friends throughout all stages of the
-          project. Let's take a look at some instances where CandorBees proved
-          to be the ideal teammate for our valued customers.
+          project. Let&apos;s take a look at some instances where CandorBees
+          proved to be the ideal teammate for our valued customers.
         </p>
       </div>
 

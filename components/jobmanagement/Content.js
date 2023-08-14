@@ -294,11 +294,12 @@ export default function Content() {
             animate={control7}
           >
             <p className={styles.parat1}>
-              The Production Scheduler application revolutionizes the client's
-              workflow by providing a centralized platform for managing machine
-              operations and productivity tracking. Machine operators can
-              utilize the application to plan and schedule jobs, assign specific
-              tools to individual machines, and make adjustments as needed.
+              The Production Scheduler application revolutionizes the
+              client&apos;s workflow by providing a centralized platform for
+              managing machine operations and productivity tracking. Machine
+              operators can utilize the application to plan and schedule jobs,
+              assign specific tools to individual machines, and make adjustments
+              as needed.
             </p>
           </motion.div>
 
@@ -325,7 +326,7 @@ export default function Content() {
             animate={control9}
           >
             <p className={styles.parat1}>
-              The application's real-time dashboard offers comprehensive
+              The application&apos;s real-time dashboard offers comprehensive
               visibility into machine statuses, enabling operators to monitor
               progress effectively. Furthermore, the application facilitates
               report generation, providing valuable insights for analysis,

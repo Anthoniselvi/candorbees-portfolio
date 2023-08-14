@@ -37,20 +37,12 @@ const Navbar = ({ opened, setOpened }) => {
     >
       <div className={styles.item}>
         <Image
-          src={
-            activeLink === "/"
-              ? "/image/logo-blue.png"
-              : activeLink === "/what"
-              ? "/image/logo-purple.png"
-              : activeLink === "/project"
-              ? "/image/logo-pink.png"
-              : activeLink === "/#team"
-              ? "/image/logo-purple.png"
-              : "/image/logo-blue.png"
-          }
+          alt="logo"
+          src="/image/logo-blue.png"
           style={{
             width: "50%",
             height: "100%",
+            cursor: "pointer",
           }}
           width={400}
           height={400}

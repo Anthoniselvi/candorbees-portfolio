@@ -121,8 +121,8 @@ const Projects = () => {
             We are driven not only by exciting projects but also by the people
             who bring them to life. Our clients are not just clients; they are
             our partners, collaborators, and friends throughout all stages of
-            the project. Let's take a look at some instances where CandorBees
-            proved to be the ideal teammate for our valued customers.
+            the project. Let&apos;s take a look at some instances where
+            CandorBees proved to be the ideal teammate for our valued customers.
           </p>
         </motion.div>
       </div>

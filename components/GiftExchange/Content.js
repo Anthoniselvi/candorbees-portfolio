@@ -215,7 +215,7 @@ const Content = () => {
               The Santa game web app is designed to bring people together during
               the Christmas season to share gifts and wishes. It allows users to
               create groups and participate in a secret Santa game where they
-              can exchange task messages and fulfill each other's wishes.
+              can exchange task messages and fulfill each other&apos;s wishes.
             </p>
           </motion.div>
           <p className={styles.parat1}>&#160;</p>
@@ -339,9 +339,9 @@ const Content = () => {
           >
             <p className={styles.parat1}>Reveal and Gift Exchange:</p>
             <p className={styles.para}>
-              A designated final game event date is set. Moms' identities are
-              revealed to the children during the event. Moms have access to
-              their assigned child's wishlist to purchase gifts. Gifts are
+              A designated final game event date is set. Moms&apos; identities
+              are revealed to the children during the event. Moms have access to
+              their assigned child&apos;s wishlist to purchase gifts. Gifts are
               exchanged between moms and children during the event.
             </p>
           </motion.div>

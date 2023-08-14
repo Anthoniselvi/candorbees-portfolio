@@ -215,8 +215,8 @@ const WeAreGoodAt = () => {
                   our area.
                 </li>
                 <li className={styles.li}>
-                  Design; if you don't have your own designer, we are ready to
-                  recommend our partners.
+                  Design; if you don&apos;t have your own designer, we are ready
+                  to recommend our partners.
                 </li>
                 <li className={styles.li}>
                   AI/VR/AR/ML; we can determine the need for such technologies

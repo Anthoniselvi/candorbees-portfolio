@@ -1,7 +1,7 @@
 .container {
     height: 100px;
     padding: 0px 50px;
-    background-color: #d1411e;
+    background: #3d2a52;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -100,6 +100,7 @@
   }
 
   .nav{
+    background: #3d2a52;
     justify-content: space-between;
     text-align: center;
     display: flex;
@@ -112,6 +113,7 @@
     width: 100%;
 }
 .activewhat {
+  background: #3d2a52;
   justify-content: space-between;
   text-align: center;
   display: flex;
@@ -122,11 +124,12 @@
   color: white;
   height: 100px;
   width: 100%;
-  background: #b370b0;
+  /* background: #b370b0; */
 }
 
 .activeproject {
-  background: #fff8f0;
+  background: #3d2a52;
+  /* background: #fff8f0; */
   justify-content: center;
   text-align: center;
   display: flex;
@@ -143,7 +146,8 @@
   /* background: #3d2a52; */
   height: 100px;
   width: 100%;
-  background: #b370b0;
+  background: #3d2a52;
+  /* background: #b370b0; */
   justify-content: center;
   text-align: center;
   display: flex;
@@ -155,6 +159,7 @@
 }
 
 .activeget {
+  /* background: #3d2a52; */
   background: #3d2a52;
   height: 100px;
   width: 100%;
@@ -184,39 +189,47 @@
 .activetextproject{
   color: #f2a841;
   font-size: 22px;
+  cursor: pointer;
 }
 
 .activetextwhat{
   color: #f2a841;
   font-size: 22px;
+  cursor: pointer;
 }
 
 .activetextget{
   color: #f2a841;
   font-size: 22px;
+  cursor: pointer;
 }
 
 .activetextteam{
   font-size: 22px;
   color: #f2a841;
+  cursor: pointer;
 }
 
 .activetextget{
   color: #f2a841;
   font-size: 22px;
+  cursor: pointer;
 }
 
 .activetexthome {
   font-size: 22px;
   color: white;
+  cursor: pointer;
 }
 
 .menuwhite{
   color: white;
+  cursor: pointer;
 }
 .activetextinitial {
   color: black;
   font-size: 22px;
+  cursor: pointer;
 }
 .icon{
     display: none;
