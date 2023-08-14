@@ -9,7 +9,7 @@ export default function Home() {
   return (
     <div className={styles.container}>
       <Head>
-        <link rel="shortcut icon" href="/image/logo-big.png" />
+        <link rel="shortcut icon" href="/image/logo.jpeg" />
         <title>Candorbees</title>
       </Head>
       <Header />

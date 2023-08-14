@@ -9,7 +9,7 @@ const what = () => {
   return (
     <div className="What_Container">
       <Head>
-        <link rel="shortcut icon" href="/image/logo-big.png" />
+        <link rel="shortcut icon" href="/image/logo.jpeg" />
         <title>Candorbees</title>
       </Head>
       <Header />
