@@ -428,9 +428,13 @@ const Content = () => {
           >
             <Image
               src="/image/project1.png"
-              width="500"
-              height="300"
-              alt=""
+              style={{
+                width: "100%",
+                height: "100%",
+              }}
+              width={400}
+              height={400}
+              alt="santa-img"
               className={styles.image}
             />
           </motion.div>

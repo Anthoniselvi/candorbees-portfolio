@@ -46,9 +46,13 @@ export default function Header() {
         >
           <Image
             src="/image/project5.png"
-            width="200"
-            height="200"
-            alt=""
+            style={{
+              width: "100%",
+              height: "100%",
+            }}
+            width={400}
+            height={400}
+            alt="santa-img"
             className={styles.homeimage}
           />
         </motion.div>

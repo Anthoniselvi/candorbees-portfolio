@@ -132,7 +132,7 @@ const Teams = () => {
 
             <div className={styles.bottom}>
               <h3 className={styles.name}>
-                <a href="https://www.linkedin.com/in/anthoni-selvi-813804248/">
+                <a href="https://www.linkedin.com/in/srilekha-rajasekar-b723a435/">
                   SRILEKHA
                 </a>
               </h3>

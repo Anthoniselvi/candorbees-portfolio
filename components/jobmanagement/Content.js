@@ -408,7 +408,7 @@ export default function Content() {
               src="/image/project1.png"
               style={{
                 width: "100%",
-                height: "auto",
+                height: "100%",
               }}
               width={400}
               height={400}

@@ -92,6 +92,7 @@ gap:30px;
   color: black;
   border-radius: 12px;
   width: 650px;
+  cursor: pointer;
 }
 .submitbtn {
 /* width: 650px; */
@@ -100,6 +101,7 @@ display: flex;
 align-items: center;
 justify-content: center;
 gap: 10px;
+cursor: pointer;
 }
 .button:hover{
   transition: 0.3s ease;
