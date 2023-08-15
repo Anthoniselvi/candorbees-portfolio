@@ -12,36 +12,36 @@ function Menu({ setOpened }) {
     <div className={styles.navbars}>
       <ul className={styles.navbarwrappers}>
         <li className={styles.navbarelement}>
-          <Link href="/what" onClick={hideMenu} className={styles.text}>
+          {/* <Link href="/what" onClick={hideMenu} className={styles.text}>
             WHAT WE DO
-          </Link>
-          {/* <a href="/what" onClick={hideMenu} className={styles.text}>
+          </Link> */}
+          <a href="/what" onClick={hideMenu} className={styles.text}>
             WHAT WE DO
-          </a> */}
+          </a>
         </li>
         <li className={styles.navbarelement}>
-          <Link href="/project" onClick={hideMenu} className={styles.text}>
+          {/* <Link href="/project" onClick={hideMenu} className={styles.text}>
             PROJECTS
-          </Link>
-          {/* <a href="/project" onClick={hideMenu} className={styles.text}>
+          </Link> */}
+          <a href="/project" onClick={hideMenu} className={styles.text}>
             PROJECTS
-          </a> */}
+          </a>
         </li>
         <li className={styles.navbarelement}>
-          <Link href="/#team" onClick={hideMenu} className={styles.text}>
+          {/* <Link href="/#team" onClick={hideMenu} className={styles.text}>
             TEAM
-          </Link>
-          {/* <a href="/#team" onClick={hideMenu} className={styles.text}>
+          </Link> */}
+          <a href="/#team" onClick={hideMenu} className={styles.text}>
             TEAM
-          </a> */}
+          </a>
         </li>
         <li className={styles.navbarelement}>
-          <Link href="/#get" onClick={hideMenu} className={styles.text}>
+          {/* <Link href="/#get" onClick={hideMenu} className={styles.text}>
             GET IN TOUCH
-          </Link>
-          {/* <a href="/#get" onClick={hideMenu} className={styles.text}>
+          </Link> */}
+          <a href="/#get" onClick={hideMenu} className={styles.text}>
             GET IN TOUCH
-          </a> */}
+          </a>
         </li>
       </ul>
     </div>
