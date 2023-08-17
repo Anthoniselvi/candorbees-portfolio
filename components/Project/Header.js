@@ -174,7 +174,7 @@ const Header = () => {
           animate={control5}
         >
           <Image
-            src="/image/project1.png"
+            src="/image/gift.png"
             style={{
               width: "100%",
               height: "auto",
