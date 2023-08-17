@@ -405,7 +405,7 @@ export default function Content() {
             animate={control13}
           >
             <Image
-              src="/image/gift.png"
+              src="/image/project1.png"
               style={{
                 width: "100%",
                 height: "100%",

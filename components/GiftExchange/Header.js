@@ -45,7 +45,7 @@ export default function Header() {
           animate={control1}
         >
           <Image
-            src="/image/project5.png"
+            src="/image/gift.png"
             style={{
               width: "100%",
               height: "100%",
