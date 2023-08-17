@@ -39,8 +39,8 @@
 }
 
 .containercontent {
-    display: flex;
-    flex-direction: column;
+    /* display: flex;
+    flex-direction: column; */
     /* margin-top: 10rem; */
  }
 .containercontent2 {
