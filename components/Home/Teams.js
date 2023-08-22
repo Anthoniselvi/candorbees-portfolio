@@ -137,7 +137,7 @@ const Teams = () => {
                 </a>
               </h3>
               <p className={styles.parat}>Founder</p>
-              <p className={styles.para}>2 years</p>
+              <p className={styles.para}></p>
             </div>
           </div>
         </motion.div>
@@ -168,7 +168,7 @@ const Teams = () => {
                 </a>
               </h3>
               <p className={styles.parat}>Full Stack Developer</p>
-              <p className={styles.para}>2 years</p>
+              <p className={styles.para}></p>
             </div>
           </div>
         </motion.div>
@@ -199,7 +199,7 @@ const Teams = () => {
               </h3>
 
               <p className={styles.parat}>Full Stack Developer</p>
-              <p className={styles.para}>2 years</p>
+              <p className={styles.para}></p>
             </div>
           </div>
         </motion.div>
@@ -229,7 +229,7 @@ const Teams = () => {
                 </a>
               </h3>
               <div className={styles.parat}>UI Developer</div>
-              <div className={styles.para}>2 years</div>
+              <div className={styles.para}></div>
             </div>
           </div>
         </motion.div>
