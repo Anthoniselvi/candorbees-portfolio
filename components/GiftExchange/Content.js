@@ -371,14 +371,14 @@ const Content = () => {
 
             <div className={styles.list1}>
               <ul>
-                <ol>1. Programming Language: [Specify programming language]</ol>
                 <ol>
-                  2. Frameworks/Libraries: [Specify frameworks or libraries]
+                  1. Programming Language: JavaScript (for both frontend and
+                  backend)
                 </ol>
-                <ol>3. Database: [Specify database system]</ol>
-                <ol>4. Hosting Platform: [Specify hosting platform]</ol>
-                <ol>5. Front-end: [Specify front-end technologies]</ol>
-                <ol>6. Back-end: [Specify back-end technologies]</ol>
+                <ol>2. Database: MongoDB </ol>
+                <ol>3. Hosting Platform: Amazon Web Services (AWS)</ol>
+                <ol>4. Front-end: ReactJS</ol>
+                <ol>5. Back-end: NodeJS</ol>
               </ul>
             </div>
           </motion.div>
