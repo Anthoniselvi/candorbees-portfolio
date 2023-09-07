@@ -198,7 +198,7 @@ const Projects = () => {
           >
             {/* <div className={styles.homeimage}> */}
             <Image
-              src="/image/gift.png"
+              src="/image/santa.png"
               style={{
                 width: "100%",
                 height: "auto",

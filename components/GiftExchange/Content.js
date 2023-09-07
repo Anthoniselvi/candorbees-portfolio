@@ -427,7 +427,7 @@ const Content = () => {
             animate={control15}
           >
             <Image
-              src="/image/gift.png"
+              src="/image/gift.jpeg"
               style={{
                 width: "100%",
                 height: "100%",
