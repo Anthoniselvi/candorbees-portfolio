@@ -193,7 +193,7 @@ const Header = () => {
             variants={boxVariant}
             animate={control6}
           >
-            <h2 onClick={navigateToProject4}>Gift Junction</h2>
+            <h2 onClick={navigateToProject4}>Santa Surprise</h2>
             <h3 onClick={navigateToProject4}>A GIFT MANAGEMENT SOFTWARE</h3>
             <p className={styles.parat}>Country: United States</p>
             <p className={styles.para}>
