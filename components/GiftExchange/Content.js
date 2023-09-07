@@ -268,7 +268,7 @@ const Content = () => {
             variants={boxVariant}
             animate={control6}
           >
-            <p className={styles.parat1}>Group Creation:</p>
+            <p className={styles.subhead}>Group Creation:</p>
 
             <p className={styles.parat1}>
               Users can create a new group and specify a group name.
@@ -293,7 +293,7 @@ const Content = () => {
             variants={boxVariant}
             animate={control7}
           >
-            <p className={styles.parat1}>Drawing Names:</p>
+            <p className={styles.subhead}>Drawing Names:</p>
             <p className={styles.para}>
               The organizer initiates the name-drawing process. Names are
               randomly assigned to each user, ensuring that no user draws their
@@ -308,8 +308,8 @@ const Content = () => {
             variants={boxVariant}
             animate={control8}
           >
-            <p className="parat1">Task Messages:</p>
-            <p className="para">
+            <p className={styles.subhead}>Task Messages:</p>
+            <p className={styles.para}>
               Moms can send task messages to their assigned children. Children
               can receive and respond to task messages from their moms. Task
               messages enable communication, provide hints, or request
@@ -323,7 +323,7 @@ const Content = () => {
             variants={boxVariant}
             animate={control9}
           >
-            <p className={styles.parat1}>Wishlist Creation and Management:</p>
+            <p className={styles.subhead}>Wishlist Creation and Management:</p>
             <p className={styles.para}>
               Children can create and update their wishlists. Wishlists include
               items or gifts that the child would like to receive. Wishlists are
@@ -337,7 +337,7 @@ const Content = () => {
             variants={boxVariant}
             animate={control10}
           >
-            <p className={styles.parat1}>Reveal and Gift Exchange:</p>
+            <p className={styles.subhead}>Reveal and Gift Exchange:</p>
             <p className={styles.para}>
               A designated final game event date is set. Moms&apos; identities
               are revealed to the children during the event. Moms have access to
@@ -427,7 +427,7 @@ const Content = () => {
             animate={control15}
           >
             <Image
-              src="/image/gift.jpeg"
+              src="/image/santa.png"
               style={{
                 width: "100%",
                 height: "100%",

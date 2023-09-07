@@ -69,6 +69,12 @@
     font-size: 22px;
     margin-top: 40px;
   }
+  .subhead{
+    font-family: 'Poppins-Medium', sans-serif;
+    font-size: 22px;
+    margin-top: 40px;
+    font-weight: 600;
+  }
 @media (max-width: 1200px) {
 
     .container{
@@ -98,7 +104,7 @@
         margin-top: 2rem;
         margin-bottom: 2rem;
     }
-    .para, .parat1{
+    .para, .parat1, .subhead{
         font-size: 16px;
      }
      
